@@ -9,6 +9,7 @@ const Page2 = ({onRouteChange}) => {
         <h1>Welcom to React</h1>
       </header>
       <button onClick={() => onRouteChange('page1')}> Page 1</button>
+      <button className="disabled">Page2</button>
       <button onClick={() => onRouteChange('page3')}> Page 3</button>
     </div>
   );
